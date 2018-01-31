@@ -13,7 +13,7 @@ p {
   padding: 0 0 10px 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: bold;
   color: #364F6B;
 }
@@ -21,11 +21,16 @@ h1, h2, h3 {
 h1 {
   font-size: 2.5em;
 }
+
 h2 {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 h3 {
+  font-size: 1.2em;
+}
+
+h4 {
   font-size: 1em;
 }
 
@@ -57,7 +62,7 @@ a:hover {
 /*Divs*/
 
 .container {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -72,6 +77,8 @@ a:hover {
 
 .circle {
   border-radius: 50%;
+  border: 3px solid #364F6B;
+  box-shadow: 1px 1px 5px rgba(0, 0, 255, .2);
 }
 
 .red-button {
@@ -86,7 +93,6 @@ a:hover {
   border: none;
   position: relative;
   box-sizing: border-box;
-  transition: all 500ms ease;
 }
 
 .red-button:before {
@@ -109,7 +115,7 @@ a:hover {
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 400px;
+    width: 500px;
   }
 }
 @media (max-width: 540px) {
